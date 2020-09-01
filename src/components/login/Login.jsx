@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Login.css"
 
 function Login(props) {
 
@@ -17,7 +18,11 @@ function Login(props) {
 
     return (
         <section className="login">
+            
             <div className="loginContainer">
+                <div className="loginPicture"></div>
+                <div className="titleLoginContainer">Welcome to <strong className="bookingTitle">Booking</strong></div>
+                <div className="loginDescription">The Social Network for book readers!</div>
                 <label>Username</label>
                 <input type="text" autoFocus required value={email}
                 onChange={(e) => setEmail(e.target.value)}>

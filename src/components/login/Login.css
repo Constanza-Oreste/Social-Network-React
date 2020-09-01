@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+    color: #A4202E;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #FFF3E3;
+    cursor: pointer;
+  }
+  
+  .login {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background-image: url('../../img/2074039.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+  }
+  
+  .login .loginContainer {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFCE91;
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+
+  }
+  
+  .login .loginContainer label {
+    color: #A4202E;
+    margin: 14px 0;
+    display: block;
+    font-family: Shanti;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .login .loginContainer .loginPicture{
+      background-image: url("../../img/user.png");
+  }
+  .login .loginContainer .titleLoginContainer{
+    font-family: Shanti;
+    color: #A4202E;
+    font-size:24px;
+    text-align: center;
+  }
+  .login .loginContainer .bookingTitle{
+    font-family: Lucida Handwriting;
+    font-size: 40px;
+    text-align: center;
+    
+
+  }
+  .loginDescription{
+    color: #A4202E;
+    font-family: Shanti;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    
+  }
+  .login .loginContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background: #FCE9E5;
+    color: #A4202E;
+    letter-spacing: 1px;
+  }
+  
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  .login .loginContainer .btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+    color: #fff;
+  }
+  
+  .login .loginContainer .btnContainer p span {
+    color: rgb(175, 46, 7);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .login .loginContainer .btnContainer p span:hover {
+    color: rgb(175, 46, 7);
+  }
+  
+  .login .loginContainer .errorMsg {
+    color: rgb(175, 46, 7);
+    font-size: 16px;
+  }
+  
+ 
+  
